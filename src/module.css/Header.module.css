@@ -1,0 +1,36 @@
+.header {
+  background-color: #143109;
+  color: #a7a2a9;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logoutButton {
+  margin-left: 1rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #3d5a6c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}
+
+.userEmail {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.link{
+  color: #a7a2a9;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;  
+}

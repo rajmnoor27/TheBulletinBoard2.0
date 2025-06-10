@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d0db97;
+}
+
+header,
+footer {
+  background-color: #339938;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}

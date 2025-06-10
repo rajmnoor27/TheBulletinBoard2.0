@@ -1,0 +1,74 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .articleCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articleTitle {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+  
+  .articleDescription {
+    color: #555;
+  }
+  
+  
+  .readMore {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #007bff;
+    text-decoration: underline;
+    margin-right: 0.5rem;
+  }
+  
+  .articleCard a:hover {
+    text-decoration: underline;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3d5a6c;
+    text-align: center;
+    color: #3d5a6c;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+
+  
+.header {
+  background-color: #143109;
+  color: #a7a2a9;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,85 @@
+.feed {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3d5a6c;
+  text-align: center;
+  color: #3d5a6c;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.articleCard {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #3d5a6c;
+}
+
+.articleTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.articleDescription {
+  color: #555;
+}
+
+
+.articleLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.articleCard a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.pagination span {
+  font-size: 1rem;
+}
+
+.saveButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+}
